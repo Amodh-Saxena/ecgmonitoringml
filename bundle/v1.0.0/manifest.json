@@ -1,0 +1,23 @@
+{
+  "bundle_version": "v1.0.0",
+  "manifest_hash": "81f46ccd594df21f5a125dd7e5d65c7bc5b5e6d17e3358d95fb58d576ef9ea77",
+  "git_commit": "local-release",
+  "input_contract": {
+    "signal": "float32 [B, 12, 1000]",
+    "lead_mask": "float32 [B, 12]"
+  },
+  "output_contract": {
+    "logits": "float32 [B, 5]",
+    "features": "float32 [B, 512, 32]"
+  },
+  "test_metrics": {
+    "macro_auroc": 0.911225920564419,
+    "macro_auroc_ci95": [
+      0.9044967376395348,
+      0.9194331626967313
+    ],
+    "macro_auprc": 0.7767826634196863,
+    "macro_ece": 0.0225481676430959
+  },
+  "license": "PhysioNet Open Data / MIT Code License"
+}

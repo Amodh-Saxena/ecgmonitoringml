@@ -1,0 +1,883 @@
+{
+  "version": "1.0.0",
+  "classes": [
+    {
+      "id": "NORM",
+      "display_name": "Normal ECG"
+    },
+    {
+      "id": "MI",
+      "display_name": "Myocardial infarction"
+    },
+    {
+      "id": "STTC",
+      "display_name": "ST/T change"
+    },
+    {
+      "id": "CD",
+      "display_name": "Conduction disturbance"
+    },
+    {
+      "id": "HYP",
+      "display_name": "Hypertrophy"
+    }
+  ],
+  "mappings": [
+    {
+      "source": "ptbxl",
+      "source_code": "NORM",
+      "description": "SCP statement NORM",
+      "target_class": "NORM",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "IMI",
+      "description": "SCP statement IMI",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "ASMI",
+      "description": "SCP statement ASMI",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "ILMI",
+      "description": "SCP statement ILMI",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "AMI",
+      "description": "SCP statement AMI",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "ALMI",
+      "description": "SCP statement ALMI",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "INJAS",
+      "description": "SCP statement INJAS",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "LMI",
+      "description": "SCP statement LMI",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "INJAL",
+      "description": "SCP statement INJAL",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "IPLMI",
+      "description": "SCP statement IPLMI",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "IPMI",
+      "description": "SCP statement IPMI",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "INJIN",
+      "description": "SCP statement INJIN",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "INJLA",
+      "description": "SCP statement INJLA",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "PMI",
+      "description": "SCP statement PMI",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "INJIL",
+      "description": "SCP statement INJIL",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "NDT",
+      "description": "SCP statement NDT",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "NST_",
+      "description": "SCP statement NST_",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "DIG",
+      "description": "SCP statement DIG",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "LNGQT",
+      "description": "SCP statement LNGQT",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "ISC_",
+      "description": "SCP statement ISC_",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "ISCAL",
+      "description": "SCP statement ISCAL",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "ISCIN",
+      "description": "SCP statement ISCIN",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "ISCIL",
+      "description": "SCP statement ISCIL",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "ISCAS",
+      "description": "SCP statement ISCAS",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "ISCLA",
+      "description": "SCP statement ISCLA",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "ANEUR",
+      "description": "SCP statement ANEUR",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "EL",
+      "description": "SCP statement EL",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "ISCAN",
+      "description": "SCP statement ISCAN",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "LAFB",
+      "description": "SCP statement LAFB",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "IRBBB",
+      "description": "SCP statement IRBBB",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "1AVB",
+      "description": "SCP statement 1AVB",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "IVCD",
+      "description": "SCP statement IVCD",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "CRBBB",
+      "description": "SCP statement CRBBB",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "CLBBB",
+      "description": "SCP statement CLBBB",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "LPFB",
+      "description": "SCP statement LPFB",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "WPW",
+      "description": "SCP statement WPW",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "ILBBB",
+      "description": "SCP statement ILBBB",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "3AVB",
+      "description": "SCP statement 3AVB",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "2AVB",
+      "description": "SCP statement 2AVB",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "LVH",
+      "description": "SCP statement LVH",
+      "target_class": "HYP",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "LAO/LAE",
+      "description": "SCP statement LAO/LAE",
+      "target_class": "HYP",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "RVH",
+      "description": "SCP statement RVH",
+      "target_class": "HYP",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "RAO/RAE",
+      "description": "SCP statement RAO/RAE",
+      "target_class": "HYP",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ptbxl",
+      "source_code": "SEHYP",
+      "description": "SCP statement SEHYP",
+      "target_class": "HYP",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "426783006",
+      "description": "Sinus rhythm (normal ECG)",
+      "target_class": "NORM",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "164865005",
+      "description": "Myocardial infarction",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "164861001",
+      "description": "Myocardial ischemia",
+      "target_class": "STTC",
+      "rule": "parent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "429622005",
+      "description": "ST segment depression",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "164930006",
+      "description": "ST interval abnormal",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "164934002",
+      "description": "T wave abnormal",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "111975006",
+      "description": "Prolonged QT interval",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "270492004",
+      "description": "First degree AV block",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "164947007",
+      "description": "Prolonged PR interval",
+      "target_class": "CD",
+      "rule": "equivalent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "164909002",
+      "description": "Left bundle branch block",
+      "target_class": "CD",
+      "rule": "parent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "59118001",
+      "description": "Right bundle branch block",
+      "target_class": "CD",
+      "rule": "parent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "713427006",
+      "description": "Complete right bundle branch block",
+      "target_class": "CD",
+      "rule": "equivalent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "713426002",
+      "description": "Incomplete right bundle branch block",
+      "target_class": "CD",
+      "rule": "parent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "445118002",
+      "description": "Left anterior fascicular block",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "698252002",
+      "description": "Nonspecific intraventricular conduction disorder",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "164873001",
+      "description": "Left ventricular hypertrophy",
+      "target_class": "HYP",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "cinc",
+      "source_code": "446358003",
+      "description": "Right atrial hypertrophy",
+      "target_class": "HYP",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "426783006",
+      "description": "Sinus rhythm (normal ECG)",
+      "target_class": "NORM",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "164865005",
+      "description": "Myocardial infarction",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "164861001",
+      "description": "Myocardial ischemia",
+      "target_class": "STTC",
+      "rule": "parent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "429622005",
+      "description": "ST segment depression",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "164930006",
+      "description": "ST interval abnormal",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "164934002",
+      "description": "T wave abnormal",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "111975006",
+      "description": "Prolonged QT interval",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "270492004",
+      "description": "First degree AV block",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "164947007",
+      "description": "Prolonged PR interval",
+      "target_class": "CD",
+      "rule": "equivalent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "164909002",
+      "description": "Left bundle branch block",
+      "target_class": "CD",
+      "rule": "parent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "59118001",
+      "description": "Right bundle branch block",
+      "target_class": "CD",
+      "rule": "parent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "713427006",
+      "description": "Complete right bundle branch block",
+      "target_class": "CD",
+      "rule": "equivalent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "713426002",
+      "description": "Incomplete right bundle branch block",
+      "target_class": "CD",
+      "rule": "parent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "445118002",
+      "description": "Left anterior fascicular block",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "698252002",
+      "description": "Nonspecific intraventricular conduction disorder",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "164873001",
+      "description": "Left ventricular hypertrophy",
+      "target_class": "HYP",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "chapman",
+      "source_code": "446358003",
+      "description": "Right atrial hypertrophy",
+      "target_class": "HYP",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "426783006",
+      "description": "Sinus rhythm (normal ECG)",
+      "target_class": "NORM",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "164865005",
+      "description": "Myocardial infarction",
+      "target_class": "MI",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "164861001",
+      "description": "Myocardial ischemia",
+      "target_class": "STTC",
+      "rule": "parent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "429622005",
+      "description": "ST segment depression",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "164930006",
+      "description": "ST interval abnormal",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "164934002",
+      "description": "T wave abnormal",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "111975006",
+      "description": "Prolonged QT interval",
+      "target_class": "STTC",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "270492004",
+      "description": "First degree AV block",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "164947007",
+      "description": "Prolonged PR interval",
+      "target_class": "CD",
+      "rule": "equivalent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "164909002",
+      "description": "Left bundle branch block",
+      "target_class": "CD",
+      "rule": "parent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "59118001",
+      "description": "Right bundle branch block",
+      "target_class": "CD",
+      "rule": "parent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "713427006",
+      "description": "Complete right bundle branch block",
+      "target_class": "CD",
+      "rule": "equivalent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "713426002",
+      "description": "Incomplete right bundle branch block",
+      "target_class": "CD",
+      "rule": "parent",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "445118002",
+      "description": "Left anterior fascicular block",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "698252002",
+      "description": "Nonspecific intraventricular conduction disorder",
+      "target_class": "CD",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "164873001",
+      "description": "Left ventricular hypertrophy",
+      "target_class": "HYP",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    },
+    {
+      "source": "ningbo",
+      "source_code": "446358003",
+      "description": "Right atrial hypertrophy",
+      "target_class": "HYP",
+      "rule": "exact",
+      "reviewer": "unreviewed",
+      "notes": ""
+    }
+  ],
+  "mapping_note": "A class a source never maps to is masked (m=0), never a silent negative."
+}

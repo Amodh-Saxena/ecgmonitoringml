@@ -1,0 +1,23 @@
+study: S1
+variant: resnet100hz
+data:
+  source: ptbxl
+  root: data/raw/files/ptb-xl/1.0.3
+  sampling_rate: 100
+  duration_seconds: 10
+  split_seed: 42
+model:
+  name: resnet1d
+  channels: [64, 128, 256, 512]
+  blocks_per_stage: 2
+  dropout: 0.1
+train:
+  seed: 42
+  batch_size: 64
+  epochs: 15
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 4
+augmentation:
+  noise_std: 0.01
+  lead_dropout_p: 0.1

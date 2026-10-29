@@ -1,0 +1,9 @@
+{
+  "duration_seconds": 10,
+  "epsilon": 1e-06,
+  "high_hz": 40.0,
+  "low_hz": 0.5,
+  "normalization": "record_zscore",
+  "notch_hz": null,
+  "sampling_rate": 100
+}

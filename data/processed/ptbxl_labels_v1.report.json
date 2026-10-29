@@ -1,0 +1,70 @@
+{
+  "n_records": 21799,
+  "classes": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "positives": {
+    "NORM": 9514,
+    "MI": 5469,
+    "STTC": 5235,
+    "CD": 4898,
+    "HYP": 2649
+  },
+  "labeled_records": 21388,
+  "unlabeled_records": 411,
+  "multi_label_records": 5144,
+  "per_split": {
+    "train": {
+      "NORM": 7596,
+      "MI": 4379,
+      "STTC": 4186,
+      "CD": 3907,
+      "HYP": 2119
+    },
+    "validation": {
+      "NORM": 955,
+      "MI": 540,
+      "STTC": 528,
+      "CD": 495,
+      "HYP": 268
+    },
+    "test": {
+      "NORM": 963,
+      "MI": 550,
+      "STTC": 521,
+      "CD": 496,
+      "HYP": 262
+    }
+  },
+  "split_sizes": {
+    "train": 17418,
+    "validation": 2183,
+    "test": 2198
+  },
+  "patient_overlap": {
+    "train&validation": 0,
+    "train&test": 0,
+    "validation&test": 0
+  },
+  "unmapped_codes": {
+    "SR": 16748,
+    "ABQRS": 3327,
+    "AFIB": 1514,
+    "PVC": 1143,
+    "STD_": 1009,
+    "VCLVH": 875,
+    "STACH": 826,
+    "SARRH": 772,
+    "SBRAD": 637,
+    "QWAVE": 548,
+    "LOWT": 438,
+    "NT_": 423,
+    "PAC": 398,
+    "LPR": 340,
+    "PACE": 294
+  }
+}

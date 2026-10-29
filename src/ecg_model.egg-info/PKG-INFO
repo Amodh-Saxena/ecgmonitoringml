@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: ecg-model
+Version: 0.1.0
+Summary: Reproducible ECG abnormality modeling pipeline
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.24
+Requires-Dist: scipy>=1.10
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: scikit-learn>=1.3
+Requires-Dist: torch>=2.1
+Provides-Extra: data
+Requires-Dist: wfdb>=4.1; extra == "data"
+Requires-Dist: neurokit2>=0.2; extra == "data"
+Provides-Extra: export
+Requires-Dist: onnx>=1.15; extra == "export"
+Requires-Dist: onnxruntime>=1.16; extra == "export"
+Provides-Extra: tracking
+Requires-Dist: mlflow>=2.9; extra == "tracking"
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4; extra == "dev"
+Requires-Dist: ruff>=0.3; extra == "dev"
